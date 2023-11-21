@@ -1,6 +1,8 @@
 Blog Project with Next.js and Firebase
 This project is a blog application developed using Next.js and Firebase.
 
+This is live link: https://blogger-app-6cb0c.web.app/ 
+
 Table of Contents
 Description
 Features
@@ -22,7 +24,7 @@ Clone the repository:
 git clone 
 Change directory to the project folder:
 
-cd blog-app
+cd Blogger-App
 
 Install dependencies:
 
