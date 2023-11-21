@@ -39,6 +39,6 @@ Technologies Used
 Next.js
 Firebase (Firestore)
 React
-HTML/CSS
+HTML/CSS.
 
 
