@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap");
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Noto Sans", sans-serif;
+  height: 100%;
+}
+
+
+/* create post */
+
+.create {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.create h1 {
+  text-align: center;
+}
+
+.title,
+.content {
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 5px;
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+
+/* index page */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+/* button styles */
+.create-post-btn,
+.view-toggle-btn,
+.show-all-btn {
+  padding: 10px 20px;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+  max-width: 150px;
+  transition: background-color 0.3s ease;
+}
+
+/* Button colors */
+.create-post-btn {
+  background-color: #3498db; 
+}
+
+.view-toggle-btn {
+  background-color: #27ae60; 
+}
+
+.show-all-btn {
+  background-color: #e67e22; 
+}
+
+/* Hover effects */
+.create-post-btn:hover {
+  background-color: #2980b9; 
+}
+
+.view-toggle-btn:hover {
+  background-color: #219653; 
+}
+
+.show-all-btn:hover {
+  background-color: #d35400; 
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  /* Adjust button styles for smaller screens */
+  .create-post-btn,
+  .view-toggle-btn,
+  .show-all-btn {
+    font-size: 10px; 
+    max-width: 100px; 
+    font-weight: 700;
+  }
+}
+
+
+.post-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.read-more-link,
+.view-all-comments {
+  color: #3498db;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.post-actions {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.edit-btn,
+.delete-btn {
+  margin-right: 10px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 80px;
+}
+
+.edit-btn {
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+.delete-btn {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+/* List View */
+.post-list {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Grid View */
+.post-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.post-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  padding: 10px;
+  gap: 20px;
+}
+
+.empty {
+  text-align: center;
+}
+
+.search {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+
+
+/* postID */
+
+.postTitle {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.postContent {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* comments-section */
+
+.comments-section {
+  margin-top: 10px;
+}
+
+.commentinput {
+  width: 200px;
+}
+
+.comment-btn {
+  max-width: 150px;
+  font-size: 14px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
